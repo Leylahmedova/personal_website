@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/media/pictures/"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Leylahmadova</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#"
+            ><img
+              class="logoimg"
+              src="./assets/media/pictures/lalogo.png"
+              alt="Leyla Ahmadova"
+          /></a>
+        </div>
+        <div class="nav-links">
+          <h4>
+            <a class="link-hover" href="#about"><span>About me</span></a>
+          </h4>
+          <h4>
+            <a class="link-hover" href="#skills"><span>Skills</span></a>
+          </h4>
+          <h4>
+            <a class="link-hover" href="#blogs"><span>Blogs</span></a>
+          </h4>
+
+          <h4>
+            <a class="link-hover" href="#testimonials"
+              ><span>Testimonials</span></a
+            >
+          </h4>
+          <h4>
+            <a class="link-hover" href="#contactme"><span>Contact me</span></a>
+          </h4>
+
+          <div class="box">
+            <div class="dropdown">
+              <a href="#">Portfolio</a>
+              <span class="left-icon"></span>
+              <span class="right-icon"></span>
+              <div class="items">
+                <a href="#" style="--i: 1"><span></span>Personal</a>
+                <a href="#" style="--i: 2"><span></span>Front-end</a>
+                <a href="#" style="--i: 3"><span></span>Final</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- curtain menu -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#about">About</a>
+            <a href="#skills">SKills</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contactme">Contact</a>
+          </div>
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span class="forright" onclick="openNav()"
+          ><i class="fa-solid fa-bars-staggered"></i
+        ></span>
+      </nav>
+    </header>
+
+    <section class="introsection">
+      <div class="intro-text">
+        <h1>fHi. My name is <span>Leyla Ahmadova</span></h1>
+        <h3>Frontend Developer</h3>
+        <p>
+          High level experience in web design and development
+          knowledge,producing quality work.
+        </p>
+        <div class="nav-btn">
+          <a href="#readmore">Read More</a>
+        </div>
+        <div class="nav-social">
+          <ul>
+            <li>
+              <a href="https://github.com/Leylahmedova"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/leyla-ehmedova-a181b1211"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/leyla.ahmedova.315428?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="intro-picture">
+        <img
+          src="./assets/media/pictures/circleimg.jpeg"
+          alt="Leyla Ahmadova"
+        />
+      </div>
+    </section>
+
+    <section id="about" class="aboutSection">
+      <div class="aboutHeading" data-aos="fade-right">
+        <h1>About Me</h1>
+        <h3>My introduction</h3>
+      </div>
+      <div class="aboutMe">
+        <div class="picture-about">
+          <img
+            data-aos="fade-right"
+            src="https://i.pinimg.com/564x/6a/a2/8d/6aa28d763b8b5bd4c06a25c8ba401264.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text-about">
+          <p id="readmore" data-aos="fade-left">
+            Recent bachelor's degree recipient with a background in web design
+            and development. W3C web developer certification. Over 3 years of
+            experience working on personal blogs, taking one from 1,000 monthly
+            visitors to 50,000 visitors per month in just 1 year. Seeking to
+            become the next front end developer for Jameson Communications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="sirketlogos">
+      <img src="./assets/svg/logos.svg" alt="" />
+    </div>
+
+    <section id="skills" class="skills-section">
+      <h1 data-aos="fade-right">
+        skill <img src="./assets/svg/stars.svg" alt="" />
+      </h1>
+      <div class="umumi">
+        <div class="card">
+          <div class="percent" style="--clr: #fff; --num: 85">
+            <div class="dots"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>85<span>%</span></h2>
+              <p>Html</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="percent" style="--clr: #fff; --num: 75">
+            <div class="dots"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>75<span>%</span></h2>
+              <p>Css</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="percent" style="--clr: #fff; --num: 50">
+            <div class="dots"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>50<span>%</span></h2>
+              <p>Javascript</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="percent" style="--clr: #fff; --num: 60">
+            <div class="dots"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>60<span>%</span></h2>
+              <p>Python</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h1 data-aos="fade-right">Testimonials</h1>
+      <img
+        class="enginering"
+        src="./assets/svg/undraw_engineering_team_a7n2.svg"
+        alt=""
+      />
+      <div class="cards"></div>
+    </section>
+
+    <div class="background-fixed">
+      <section class="accordion-section">
+        <div class="hisse">
+          <button class="accordion">
+            <h1 data-aos="fade-left">What is JavaScript?</h1>
+          </button>
+          <div class="panel">
+            <p>
+              Last but not least, JavaScript allows you to make your website
+              interactive. It allows for all the content you created with HTML
+              and styled with CSS to become more engaging. From clickable
+              buttons to log-in options, JavaScript is what turns your website
+              from a wall of text into an experience.
+            </p>
+          </div>
+        </div>
+        <div class="hisse">
+          <button class="accordion">
+            <h1 data-aos="fade-left">Is it easy to learn HTML and CSS?</h1>
+          </button>
+          <div class="panel">
+            <p>
+              This is the basic programming language that forms the foundation
+              of all websites. It allows you to create content, put it on a
+              page, and link to other pages.This scripting language allows you
+              to design the content on your webpage. It’s responsible for text
+              styling, colors, fonts, and so on.
+            </p>
+          </div>
+        </div>
+        <div class="hisse">
+          <button class="accordion">
+            <h1 data-aos="fade-left">What is web development?</h1>
+          </button>
+          <div class="panel">
+            <p>
+              Web development refers to the creating, building, and maintaining
+              of websites. It includes aspects such as web design, web
+              publishing, web programming, and database management. It is the
+              creation of an application that works over the internet i.e.
+              websites.
+            </p>
+          </div>
+        </div>
+        <div class="hisse">
+          <button class="accordion">
+            <h1 data-aos="fade-left">What is Frontend?</h1>
+          </button>
+          <div class="panel">
+            <p>
+              Creating a front end experience isn’t a one-person job. In fact,
+              it takes a group of people to create a website that looks as good
+              as it feels to use.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Slideshow container -->
+    <div id="blogs" class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <h1 data-aos="fade-right">Blogs</h1>
+      <div class="mySlides fade">
+        <img
+          src="https://www.skoove.com/blog/wp-content/uploads/2021/05/image.jpg"
+          style="width: 100%"
+        />
+        <div class="text">
+          I have been a perfect piano player for 10 years. I mainly play retro
+          and classical music.
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://mymodernmet.com/wp/wp-content/uploads/2018/04/best-oil-paints-2.jpg"
+          style="width: 100%"
+        />
+        <div class="text">
+          I have been able to draw beautifully since I was very young. I mostly
+          work with black pencils and watercolors.
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://api.time.com/wp-content/uploads/2022/05/featured-image-best-of-2022.jpg?quality=85&w=2400"
+          style="width: 100%"
+        />
+        <div class="text">Although I rarely read books, I love books</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/08/17/15/painting.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart"
+          style="width: 100%"
+        />
+        <div class="text">
+          I have been able to draw beautifully since I was very young. I mostly
+          work with black pencils and watercolors.
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://i0.wp.com/www.theweddingvowsg.com/wp-content/uploads/2022/02/best-guitar-strings-Singapore.jpg?fit=1920%2C1280&ssl=1"
+          style="width: 100%"
+        />
+        <div class="text">
+          I hope that I will buy a guitar soon and achieve my dream
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://images.unsplash.com/photo-1504653601220-f1a8ece25e4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmF0ZXJpYXxlbnwwfHwwfHw%3D&w=1000&q=80"
+          style="width: 100%"
+        />
+        <div class="text">
+          BATERİA,BATERIA,BATERIA.It's not a lie if I say that I breathe rock
+          music.
+        </div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div class="wave"></div>
+    <footer id="contactme" class="footer">
+      <div class="birles">
+        <div class="contact">
+          <h1 data-aos="fade-right">Contact me</h1>
+          <form action="">
+            <input type="text" placeholder="Enter Your Name" />
+            <input type="text" placeholder="Enter Your Surname" />
+            <input type="Email" required placeholder="Enter Your Email" />
+            <textarea
+              placeholder="Enter Your Subject"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="letter-image">
+          <div class="animated-mail">
+            <div class="back-fold"></div>
+            <div class="letter">
+              <div class="letter-border"></div>
+              <div class="letter-title"></div>
+              <div class="letter-context"></div>
+              <div class="letter-stamp">
+                <div class="letter-stamp-inner"></div>
+              </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+          </div>
+          <div class="shadow"></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          @2022 Created by <i class="fa-regular fa-heart"></i> Leila Ahmadova
+          <img
+            class="withlove"
+            src="./assets/svg/undraw_with_love_re_1q3m.svg"
+            alt=""
+          />
+        </p>
+
+        <ul class="footer-nav">
+          <li><a href="#about">About me |</a></li>
+          <li><a href="#testimonials">Testimonials |</a></li>
+          <li><a href="#skills">Skills |</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+        </ul>
+        <div class="footer-social">
+          <ul>
+            <li>
+              <a href="https://github.com/Leylahmedova"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/leyla-ehmedova-a181b1211"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/leyla.ahmedova.315428?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

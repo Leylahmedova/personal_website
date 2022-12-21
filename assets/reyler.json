@@ -1,0 +1,27 @@
+[
+    {
+       
+        "musteri_img":"./assets/media/pictures/narmin.jpg",
+        "musteri_adi":"Narmin",
+        "musteri_isi":"Students",
+        "musteri_reyi":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias cum quaerat totam sequi autem excepturi, eaque quod nulla dicta, culpa quasi quam, distinctio nisi temporibus ex laboriosam enim corrupti?",
+        "button":"See details"
+        
+    },
+    {  
+        "musteri_img":"./assets/media/pictures/chess.jpg",
+          "musteri_adi":"Nicat",
+        "musteri_isi":"Front End Dev",
+        "musteri_reyi":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias cum quaerat totam sequi autem excepturi, eaque quod nulla dicta, culpa quasi quam, distinctio nisi temporibus ex laboriosam enim corrupti?",
+        "button":"See details"        
+
+    },
+    {
+        "musteri_img":"./assets/media/pictures/hormat.jpg",
+        "musteri_adi":"Hormat",
+        "musteri_isi":"Front End Dev",
+        "musteri_reyi":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias cum quaerat totam sequi autem excepturi, eaque quod nulla dicta, culpa quasi quam, distinctio nisi temporibus ex laboriosam enim corrupti?",
+        "button":"Se details"
+    }  
+    
+]
